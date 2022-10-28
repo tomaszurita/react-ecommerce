@@ -13,7 +13,6 @@ const NavBar= () => {
                 </ul>
                 <div className = "cart"><a href = "../App.js"><CartWidget/></a></div>
             </header>
-        
         </>
     )
 };
