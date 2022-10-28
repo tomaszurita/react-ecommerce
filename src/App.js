@@ -1,11 +1,10 @@
 import './App.css';
-import Header from './Header.js';
-import { FaCartPlus } from 'react-icons/fa';
+import NavBar from './components/NavBar.js';
 
 const App = () => {
   return (
     <>
-      <Header/>
+      <NavBar/>
     </>
   )
 }

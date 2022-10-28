@@ -1,19 +1,19 @@
-import { FaCartPlus } from 'react-icons/fa';
+import CartWidget from "./CartWidget";
 
-const Header = () => {
+const NavBar= () => {
     return (
         <>
             <header className = "header">
-              <p>logo</p>
+                <p>logo</p>
                 <ul>
                     <li>Inicio</li>
                     <li>Productos</li>
                     <li>Contacto</li>
                 </ul>
-                <FaCartPlus/>
+                <CartWidget/>
             </header>
         </>
     )
 };
 
-export default Header;
+export default NavBar;
