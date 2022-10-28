@@ -4,13 +4,13 @@ const NavBar= () => {
     return (
         <>
             <header className = "header">
-                <p>logo</p>
-                <ul>
-                    <li>Inicio</li>
-                    <li>Productos</li>
-                    <li>Contacto</li>
+                <p className = "logo">logo</p>
+                <ul className = "navBar">
+                    <li><a href="../App.js">Inicio</a></li>
+                    <li><a href="../App.js">Productos</a></li>
+                    <li><a href="../App.js">Contacto</a></li>
                 </ul>
-                <CartWidget/>
+                <div className = "cart"><CartWidget/></div>
             </header>
         </>
     )
