@@ -1,4 +1,4 @@
-import {ItemCount} from "./ItemCount";
+import { ItemCount } from "./ItemCount";
 import { DetailContainer, WrapperDetail, ImgContainer, ImageDetail, InfoContainer, Title, Desc, Price } from './StyledComponents';
 
 const ItemDetail = ({ item }) => {
