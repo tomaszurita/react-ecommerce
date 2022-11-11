@@ -1,14 +1,7 @@
-import './App.css';
-import ItemListContainer from './components/ItemListContainer';
-import NavBar from './components/NavBar.js';
+import Home from "./pages/Home"
 
 const App = () => {
-  return (
-    <>
-      <NavBar/>
-      <ItemListContainer greeting = "Bienvenidos!"/>
-    </>
-  )
-}
+  return <Home />;
+};
 
 export default App;
