@@ -15,7 +15,7 @@ const products = [
       cost: 16669,
       description: "Las antiparras arena Cobra Ultra Swipe Mirror producidas en Japón son la perfección hidrodinámica. Con lentes de perfil bajo espejados, molduras de alta tecnología y una silueta afilada, las nuevas Cobra Ultra Swipe Mirror minimizan la resistencia contra el agua con un diseño ultra elegante y super hermético; son ideales para nadadores de nivel intermedio y expertos. No solo vas a nadar mas rápido, sino que además vas a contar con una visión ampliada hacia los laterales gracias a sus lentes curvos que permiten expandir el campo visual.",
       image: [
-        "../img/arena-cobra-ultra-swipe.webp"
+        {Image1}
       ],
       sales: 8,
       categoryId: 101,
@@ -38,7 +38,7 @@ const products = [
       cost: 6499,
       description: "Arena The One Mirror ha sido diseñada para nadadores fitness que disfrutan de largas sesiones de pileta para mantenerse en forma y su diseño está inspirado en la linea de antiparras Powerskin de competición con un estilo atlético y deportivo. Arena The One Mirror cuentan con tratamiento anti-empañado en sus lentes espejadas optimizando así una mejor visión delantera y periférica.",
       image: [
-        "../img/arena-the-one-mirror.webp"
+        {Image2}
       ],
       sales: 143,
       categoryId: 101,
@@ -66,7 +66,7 @@ const products = [
       cost: 1799,
       description: "Las gorras de natación de silicona arena Classic son un clásico que no pasa de moda. Gracias a la silicona, proporciona mayor hidrodinamia y además protegen tu cabello contra el daño del agua clorada. Tip: Extendé la vida útil de tu gorra de silicona enjuagándola en agua dulce después de cada uso y secándola al aire libre a la sombra.",
       image: [
-        "../img/gorra-natacion-arena.webp"
+        {Image3}
       ],
       sales: 52,
       categoryId: 102,
@@ -89,7 +89,7 @@ const products = [
       cost: 4799,
       description: "Gorra con tecnología IQFit. Diseñada utilizando un sistema de escaneo global de formas de cabezas, lo que crea un óptimo confort y una excelente performance hidrodinámica. De fácil utilización y calce. Reduce la resistencia al agua entre un 3,4% y un 6%.",
       image: [
-        "../img/gorra-natación-speedo-fastskin.webp"
+        {Image4}
       ],
       sales: 27,
       categoryId: 102,
@@ -112,7 +112,7 @@ const products = [
       cost: 94999,
       description: "Cuando estás totalmente concentrado en la competición, siente como fluyes con nuestro bañador de última tecnología para hombre. Nuestro Powerskin Carbon Glide Jammer está creado para los nadadores que sienten la necesidad de la velocidad en el traje con el que compiten. Hecho de una tela hidrodinámica ultra ligera, este bañador realmente reduce la resistencia y turbulencias. La combinación de tela de carbono especial y el vendaje interior comprimen y activan inmediatamente los músculos. Con un corte optimizado para garantizar mayor energía corporal y una natación sin restricciones.",
       image: [
-        "../img/malla-competición-arena-powerskin-hombre.webp"
+        {Image5}
       ],
       sales: 2,
       categoryId: 103,
@@ -135,7 +135,7 @@ const products = [
       cost: 108499,
       description: "Arena Powerskin Carbon Glide es ideal para quienes buscan mayor velocidad en el agua gracias al tejido hidrodinamico Hydroglide ultra liviano, este traje de competición realmente reduce la resistencia y las turbulencias en el agua",
       image: [
-        "../img/malla-competición-arena-powerskin-mujer.webp"
+        {Image6}
       ],
       sales: 3,
       categoryId: 103,
@@ -158,7 +158,7 @@ const products = [
       cost: 17999,
       description: "Estas son las aletas que todos los nadadores profesionales estaban esperando. Su diseño innovador presenta una superficie inclinada y ranuras hidrodinámicas en la parte superior para permitirle nadar con una patada más rápida y un mejor control. El talón abierto asegura la mejor flexibilidad posible del tobillo, lo que permite una noción hacia arriba más rápida y una patada de pierna hacia abajo más potente.",
       image: [
-        "../img/aletas-speedo-fury-train.webp"
+        {Image7}
       ],
       sales: 13,
       categoryId: 104,
@@ -181,7 +181,7 @@ const products = [
       cost: 22999,
       description: "Las aletas de entrenamiento crean una mayor resistencia en el agua, lo que ayuda a mejorar la fuerza y la resistencia. Los rieles dobles que se encuentran al costado de la aleta le dan propulsión en el ritmo ascendente y descendente de la patada, lo que le deja libre para incurrir en la técnica correcta.",
       image: [
-        "../img/aletas-arena-powerfin.webp"
+        {Image8}
       ],
       sales: 13,
       categoryId: 104,
@@ -199,7 +199,5 @@ const products = [
     }
   ];
 
-  module.exports = {
-    products,
-  }
+  export default products;
 
