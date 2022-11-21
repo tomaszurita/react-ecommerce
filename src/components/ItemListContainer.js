@@ -3,7 +3,7 @@ import customFetch from "../utils/customFetch"
 import { useEffect, useState } from 'react'
 import ItemList from './ItemList'
 import { useParams } from 'react-router-dom'
-const {products} = require("../utils/products") 
+import products from "../utils/products" 
 
 const ItemListContainer = ({greeting}) => {
 

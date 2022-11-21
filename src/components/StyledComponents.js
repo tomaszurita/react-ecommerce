@@ -136,8 +136,8 @@ const ImgContainer = styled.div`
 
 const ImageDetail = styled.img`
     width: 100%;
-    height: 90vh;
-    object-fit: cover;
+    height: auto;
+    object-fit: contain;
 `;
 
 const InfoContainer = styled.div`
