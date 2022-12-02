@@ -22,7 +22,7 @@ const products = [
       brandId: 1001,
       packingId: null,
       category: {
-        name: "antiparras",
+        name: "Antiparras",
         id: 101
       },
       brand: {
@@ -45,7 +45,7 @@ const products = [
       brandId: 1001,
       packingId: null,
       category: {
-        name: "antiparras",
+        name: "Antiparras",
         id: 101
       },
       brand: {

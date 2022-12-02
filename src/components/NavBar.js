@@ -44,7 +44,7 @@ function NavBar() {
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <img src={logo} alt="logo" style={{width:'4rem'}}/>
-          <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
+          <Box sx={{ flexGrow: 1, display: {xs: 'flex', md: 'none',}}}>
             <IconButton
               size="large"
               aria-label="account of current user"
@@ -84,7 +84,7 @@ function NavBar() {
             </Menu>
           </Box>
 
-          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
+          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }}}>
             {pages.map((page) => (
               <NavLink
                 key={page.id}
