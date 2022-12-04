@@ -10,6 +10,7 @@ import Container from '@mui/material/Container';
 import MenuItem from '@mui/material/MenuItem';
 import logo from '../img/logo.png';
 import { NavLink } from 'react-router-dom';
+import './navbar.css';
 
 const pages = [{
     name: "Antiparras",
@@ -75,7 +76,7 @@ function NavBar() {
             >
               {pages.map((page) => (
                 <MenuItem key={page.id} onClick={handleCloseNavMenu}>
-                    <NavLink to={`category/${page.name}`}>
+                    <NavLink className="navlink" to={`category/${page.name}`}>
                         <Typography textAlign="center">{page.name}</Typography>                        
                     </NavLink>
 
@@ -84,9 +85,10 @@ function NavBar() {
             </Menu>
           </Box>
 
-          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }}}>
+          <Box className="navbar-box" sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }}}>
             {pages.map((page) => (
               <NavLink
+                className="navlink"
                 key={page.id}
                 onClick={handleCloseNavMenu}
                 to={`category/${page.name}`}
