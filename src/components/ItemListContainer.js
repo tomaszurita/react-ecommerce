@@ -11,7 +11,7 @@ const ItemListContainer = ({greeting}) => {
     const {idCategory}= useParams(); 
 
     useEffect(() => {
-        customFetch(2000, products)
+        customFetch(500, products)
         .then(result => {
             if(idCategory){
                 setDatos(result.filter((item)=> item.category.name === idCategory))
@@ -20,8 +20,13 @@ const ItemListContainer = ({greeting}) => {
             }
         })
         .catch(err => console.log(err))
-    },[idCategory])
+    },[idCategory]);
 
+    useEffect(() => {
+        return (() => {
+            setDatos([]);
+        })
+    }, []);
 
     return (
     <>

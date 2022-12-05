@@ -9,7 +9,8 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
 import MenuItem from '@mui/material/MenuItem';
 import logo from '../img/logo.png';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
+import CartWidget from "./CartWidget";
 import './navbar.css';
 
 const pages = [{
@@ -44,7 +45,7 @@ function NavBar() {
     <AppBar position="static">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <img src={logo} alt="logo" style={{width:'4rem'}}/>
+          <Link to="/"><img src={logo} alt="logo" style={{width:'4rem'}}/></Link>
           <Box sx={{ flexGrow: 1, display: {xs: 'flex', md: 'none',}}}>
             <IconButton
               size="large"
@@ -98,6 +99,7 @@ function NavBar() {
               </NavLink>
             ))}
           </Box>
+          <Box><NavLink to='/cart' className="navlink"><CartWidget /></NavLink></Box>
         </Toolbar>
       </Container>
     </AppBar>
