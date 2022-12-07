@@ -5,17 +5,17 @@ https://github.com/tomaszurita/react-ecommerce.git
 
 Instala NPM: Desde tu consola ingresa npm install para instalar el proyecto y sus dependencias.
 
-El proyecto fue creado con Create React App
-Para crear un proyecto como este con Create React App Ejecutar el siguiente comando en tu consola
+El proyecto fue creado con Create React App.
+Para crear un proyecto como este con Create React App Ejecutar el siguiente comando en tu consola.
 npx create-react-app my-app
 
-Dependencias
+Dependencias.
 Aqui todas las dependencias instaladas para realizar el proyecto
 
 
-Rutas
+Rutas.
 React Router
 
-Diseño
+Diseño.
 Material UI/Styled Components
 
